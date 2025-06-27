@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SchoolJobs Connect</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Connecting Schools with the Right Talent</h1>
+    <nav>
+      <a href="for-schools.html">For Schools</a>
+      <a href="for-job-seekers.html">For Job Seekers</a>
+      <a href="job-board.html">Job Board</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cta-buttons">
+      <a href="for-schools.html" class="button">🎯 Post a Job</a>
+      <a href="for-job-seekers.html" class="button">🎯 Register as Job Seeker</a>
+    </section>
+
+    <section class="benefits">
+      <h2>Why Use Our Platform?</h2>
+      <div>
+        <h3>For Schools</h3>
+        <p>Post job requirements quickly. We'll match you with top talent in 24 hours.</p>
+      </div>
+      <div>
+        <h3>For Teachers</h3>
+        <p>Find verified school job openings easily. Apply with one click.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SchoolJobs Connect</p>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <script>
+    window.addEventListener('load', function() {
+      var script = document.createElement("script");
+      script.src = "https://static.getbutton.io/widget/send-button.js";
+      script.onload = function () {
+        WhWidgetSendButton.init({
+          whatsapp: "+91YOURNUMBER",
+          call_to_action: "Message us",
+          position: "right",
+        });
+      };
+      document.body.appendChild(script);
+    });
+  </script>
+</body>
+</html>
